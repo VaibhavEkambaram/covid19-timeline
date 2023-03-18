@@ -1,0 +1,36 @@
+{
+  "name": "covid19-timeline",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.11",
+    "@mui/material": "^5.11.13",
+    "@types/react-simple-maps": "^3.0.0",
+    "d3-scale": "^4.0.2",
+    "flag-icons": "^6.6.6",
+    "next": "^13.2.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-simple-maps": "^3.0.0",
+    "react-tooltip": "5.10.0",
+    "recharts": "2.5.0"
+  },
+  "devDependencies": {
+    "@types/d3-scale": "^4.0.3",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "typescript": "5.0.2"
+  }
+}

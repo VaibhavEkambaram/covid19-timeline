@@ -1,0 +1,112 @@
+.container {
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  background-color: #136cfb;
+}
+
+
+.card {
+  padding: 1.2rem;
+  text-align: left;
+  text-justify: auto;
+  color: inherit;
+  text-decoration: none;
+}
+
+.infoCard {
+  padding: 1.2rem;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+}
+
+.grid {
+  padding: 10px;
+}
+
+.circularProgress {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+
+.controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mapSelect {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.slider {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.innerPaper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.paperboxes {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  box-shadow: none;
+  outline-style: hidden;
+  height: 100%;
+  border: 1px solid #242526;
+  border-radius: 10px;
+  position: relative;
+}
+
+
+.paperboxesInner {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  box-shadow: none;
+  outline-style: hidden;
+  position: relative;
+  border-radius: 10px;
+  margin: 5px;
+
+}
+
+
+@media (prefers-color-scheme: dark) {
+  .card,
+  .footer {
+    border-color: #222;
+  }
+}
+
+
+
+
