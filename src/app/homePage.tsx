@@ -97,7 +97,7 @@ export function HomePage(){
 
 
 
-        const res = await fetch('https://disease.sh/v3/covid-19/historical?lastdays=all', {headers: headers, mode:'no-cors'});
+        const res = await fetch('https://disease.sh/v3/covid-19/historical?lastdays=all', {headers: headers});
 
         const json = await res.json();
         Object.entries(json).forEach(([key, value]) => {
@@ -112,7 +112,7 @@ export function HomePage(){
         });
 
         const res2 = await fetch('https://disease.sh/v3/covid-19/historical/au%2C%20ca%2C%20cn?lastdays=all', {
-            headers: headers, mode:'no-cors'
+            headers: headers
         });
 
         const json2 = await res2.json();
@@ -143,7 +143,7 @@ export function HomePage(){
 
         if (countryInput === "all") {
             const res = await fetch('https://disease.sh/v3/covid-19/historical/all?lastdays=all', {
-                headers: headers, mode:'no-cors'
+                headers: headers
             });
             const json = await res.json();
             Object.entries(json).forEach(([key, value]) => {
