@@ -75,7 +75,7 @@ export function HomePage(){
 
     const headers = new Headers();
     headers.append('Content-Type', 'application/json');
-    headers.append('Cache-Control', 'max-age=180, must-revalidate');
+    //headers.append('Cache-Control', 'max-age=180, must-revalidate');
 
 
     useEffect(() => {
