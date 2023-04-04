@@ -25,6 +25,12 @@ import {TotalDeathsChart} from "@/visualisations/TotalDeathsChart";
 import {MapDataSelect} from "@/components/MapDataSelect";
 import {VaccineChart} from "@/visualisations/VaccineChart";
 import countries from '../../public/countries.json';
+import historical from '../../public/data/historical.json';
+import historicalAb from '../../public/data/historicalAb.json';
+import all from '../../public/data/all.json';
+import vaccine from '../../public/data/vaccine.json';
+import vaccineHistorical from '../../public/data/vaccineHistorical.json';
+
 
 export function HomePage(){
     const [covidData, setCovidData] = useState([]);
@@ -66,26 +72,21 @@ export function HomePage(){
     const [countryNames] = useState(new Map());
     const [countryCodes] = useState(new Map());
 
-    const [lastUpdatedTime, setLastUpdatedTime] = useState("");
 
     let countryMap = new Map();
 
     let cMap = new Map();
     let cArray: any[] = []
 
-    const headers = new Headers();
-    headers.append('Content-Type', 'application/json');
-    //headers.append('Cache-Control', 'max-age=180, must-revalidate');
 
 
     useEffect(() => {
-        setLastUpdatedTime(new Date().toLocaleString());
         getData("all", "");
         getAllCountryData()
     }, []);
 
 
-    async function getAllCountryData() {
+    function getAllCountryData() {
         countriesMap.clear();
         countryNames.clear();
         countryCodes.clear();
@@ -96,29 +97,21 @@ export function HomePage(){
         }
 
 
-
-        const res = await fetch('https://disease.sh/v3/covid-19/historical?lastdays=all', {headers: headers});
-
-        const json = await res.json();
-        Object.entries(json).forEach(([key, value]) => {
+        Object.entries(historical).forEach(([, value]) => {
             // @ts-ignore
             let countryNameValue = value.country;
             // @ts-ignore
             let provinceNameValue = value.province;
             // @ts-ignore
             let timelineValue = value.timeline;
-
+            // @ts-ignore
             fixCountryAliases(countryNameValue, countryMap, timelineValue, provinceNameValue);
         });
 
-        const res2 = await fetch('https://disease.sh/v3/covid-19/historical/au%2C%20ca%2C%20cn?lastdays=all', {
-            headers: headers
-        });
 
-        const json2 = await res2.json();
 
-        for (let i = 0; i < json2.length; i++) {
-            countryMap.set(json2[i].country.toLowerCase(), json2[i].timeline);
+        for (let i = 0; i < historicalAb.length; i++) {
+            countryMap.set(historicalAb[i].country.toLowerCase(), historicalAb[i].timeline);
         }
 
         setCountriesMap(countryMap);
@@ -128,7 +121,7 @@ export function HomePage(){
 
 
 
-    async function getData(countryInput: string, countryCode: string) {
+    function getData(countryInput: string, countryCode: string) {
         setSelectedAttributes(placeholderValue);
 
         let casesMap = new Map();
@@ -142,11 +135,8 @@ export function HomePage(){
 
 
         if (countryInput === "all") {
-            const res = await fetch('https://disease.sh/v3/covid-19/historical/all?lastdays=all', {
-                headers: headers
-            });
-            const json = await res.json();
-            Object.entries(json).forEach(([key, value]) => {
+
+            Object.entries(all).forEach(([key, value]) => {
 
                 let val: any = value;
                 let totalCases = 0;
@@ -189,16 +179,10 @@ export function HomePage(){
             });
 
 
-            const vaccineRes = await fetch('https://disease.sh/v3/covid-19/vaccine/coverage?lastdays=all&fullData=false', {
-                headers: headers,
-            });
-            const vaccineJson = await vaccineRes.json();
-
-            if (vaccineJson !== null) {
-                Object.entries(vaccineJson).forEach(([key, value]) => {
+                Object.entries(vaccine).forEach(([key, value]) => {
                     vaccineMap.set(key, value);
                 });
-            }
+
 
 
             let counter = 0;
@@ -216,9 +200,9 @@ export function HomePage(){
                 setSelectedDateValue(date);
 
 
-                let vaxxed = vaccineMap.get(key);
-                if (vaxxed === undefined) {
-                    vaxxed = 0;
+                let vaccinatedCount = vaccineMap.get(key);
+                if (vaccinatedCount === undefined) {
+                    vaccinatedCount = 0;
                 }
 
                 let newValue = {
@@ -227,7 +211,7 @@ export function HomePage(){
                     newCases: (newCasesMap.get(key)!==-1 ? newCasesMap.get(key) : 0),
                     deaths: deathMap.get(key),
                     newDeaths: newDeathMap.get(key),
-                    vaccinated: vaxxed
+                    vaccinated: vaccinatedCount
                 };
                 setSelectedAttributes(newValue);
 
@@ -247,7 +231,6 @@ export function HomePage(){
             let countryStorage = countriesMap.get(countryInput.toLowerCase());
 
             if (countryStorage !== undefined) {
-
 
                 Object.entries(countriesMap.get(countryInput.toLowerCase())).forEach(([key, value]) => {
                     let val: any = value;
@@ -275,22 +258,14 @@ export function HomePage(){
                 });
 
 
-                const vaccineRes = await fetch('https://disease.sh/v3/covid-19/vaccine/coverage/countries/' + countryCode + '?lastdays=all&fullData=false', {
-                    headers: headers,
-                });
-                const vaccineJson = await vaccineRes.json();
-
-                let vaccineValuesAPI = vaccineJson.timeline;
-
-                if (vaccineValuesAPI !== undefined && vaccineRes.status === 200) {
-
-                    Object.entries(vaccineValuesAPI).forEach(([key, value]) => {
-                        vaccineMap.set(key, value);
-
-                    });
+                for(let i in vaccineHistorical){
+                    if(vaccineHistorical[i].country === countryCode){
+                        Object.entries(vaccineHistorical[i].timeline).forEach(([key, value]) => {
+                            vaccineMap.set(key, value);
+                        });
+                    }
                 }
             }
-
 
             let counter = 0;
             let dm = new Map();
@@ -304,9 +279,9 @@ export function HomePage(){
                 setSelectedDateValue(date);
 
 
-                let vaxxed = vaccineMap.get(key);
-                if (vaxxed === undefined) {
-                    vaxxed = null;
+                let vaccinatedCount = vaccineMap.get(key);
+                if (vaccinatedCount === undefined) {
+                    vaccinatedCount = null;
                 }
 
 
@@ -316,7 +291,7 @@ export function HomePage(){
                     newCases: (newCasesMap.get(key)>=0 ? newCasesMap.get(key) : 0),
                     deaths: deathMap.get(key),
                     newDeaths: (newDeathMap.get(key)>=0 ? newDeathMap.get(key) : 0),
-                    vaccinated: vaxxed
+                    vaccinated: vaccinatedCount
                 };
                 setSelectedAttributes(newValue);
 
@@ -338,7 +313,6 @@ export function HomePage(){
         }
     }
 
-;
 
     countriesMap.forEach((value, key) => {
         let fullCountryName = countryNames.get(key);
@@ -371,15 +345,6 @@ export function HomePage(){
         cArray.sort((a, b) => b.value - a.value);
     } else if(treeSortSelection==="Sorted by Country"){
         cArray.sort((a, b) => a.name - b.name);
-    }
-
-
-    function handleRefresh() {
-        setLastUpdatedTime(new Date().toLocaleString());
-        setContent("Worldwide");
-        setCountry(null);
-        getAllCountryData();
-        getData("all", "");
     }
 
 
@@ -433,8 +398,6 @@ export function HomePage(){
 
                             setSelectedAttributes(newValue)
                             setSelectedDateValue(date);
-
-
                         }
 
                         dd.push(dataMap.get(key));
@@ -451,12 +414,8 @@ export function HomePage(){
         }
     }
 
-
     // @ts-ignore
     const colorScale = scaleQuantize().domain([0, Math.max(...Array.from(cMap.values())) / 5]).range(colorGradient);
-
-
-
 
     const handleCountrySelectChange = (event: SelectChangeEvent) => {
         setContent(event.target.value);
@@ -501,7 +460,7 @@ export function HomePage(){
                         <Grid item xs={12} xl={4}>
                             <Paper className={styles.paperboxes}>
                                 <div className={styles.card}>
-                                    <InformationPanel countryCode={countryCode} content={content} selectedAttributes={selectedAttributes} lastUpdatedTime={lastUpdatedTime} handleRefresh={handleRefresh}/>
+                                    <InformationPanel countryCode={countryCode} content={content} selectedAttributes={selectedAttributes}/>
                                 </div>
                             </Paper>
                         </Grid>

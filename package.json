@@ -1,6 +1,6 @@
 {
   "name": "covid19-timeline",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -21,7 +21,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-simple-maps": "^3.0.0",
-    "react-tooltip": "5.10.1",
+    "react-tooltip": "5.10.5",
     "recharts": "2.5.0"
   },
   "devDependencies": {
@@ -31,6 +31,6 @@
     "@types/react-dom": "18.0.11",
     "eslint": "8.37.0",
     "eslint-config-next": "13.2.4",
-    "typescript": "5.0.2"
+    "typescript": "5.0.3"
   }
 }

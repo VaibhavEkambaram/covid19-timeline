@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 import {
-    Button,
     LinearProgress,
     Table,
     TableBody,
@@ -11,10 +10,9 @@ import {
     TableRow,
     Typography
 } from "@mui/material";
-import RefreshIcon from "@mui/icons-material/Refresh";
 
-export function InformationPanel(props: { countryCode: any, content: any, selectedAttributes: any, lastUpdatedTime: any, handleRefresh: any }) {
-    let {countryCode, content, selectedAttributes, lastUpdatedTime, handleRefresh} = props;
+export function InformationPanel(props: { countryCode: any, content: any, selectedAttributes: any}) {
+    let {countryCode, content, selectedAttributes} = props;
     return (
         <div className={styles.card}>
             <h1 className={styles.countryName}><span className={countryCode}></span> {content}</h1>
@@ -69,21 +67,17 @@ export function InformationPanel(props: { countryCode: any, content: any, select
                     </TableBody>
                 </Table>
             </TableContainer>
-            <div style={{paddingTop: "20px"}}>
-                <Typography variant={"subtitle2"}>Last Updated: {lastUpdatedTime}</Typography>
-                <Button style={{
-                    marginTop: "15px", textTransform: "none"
-                }} variant="contained" onClick={handleRefresh}
-                        startIcon={<RefreshIcon/>}>
-                    Refresh Source Data
-                </Button>
+            <div style={{paddingTop: "30px"}}>
+                <Typography variant={"subtitle1"}>Information sourced on: 4/04/2023</Typography>
             </div>
-            <div style={{paddingTop: "20px"}}>
+            <div style={{paddingTop: "40px"}}>
                 <Typography variant={"caption"}>Historical case, mortality, and vaccination data
                     sourced through disease.sh - Open Disease Data API. Case and mortality
                     information sourced from Johns Hopkins University. Vaccine information
                     sourced from Our World in Data.</Typography>
             </div>
+            <Typography>...</Typography>
+            <Typography variant={"caption"}>As the collection of live data was terminated in early 2023, this information is now sourced from stored static data, rather than the previously used live data API.</Typography>
         </div>
     );
 }
