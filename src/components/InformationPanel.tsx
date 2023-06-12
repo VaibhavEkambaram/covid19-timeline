@@ -67,17 +67,9 @@ export function InformationPanel(props: { countryCode: any, content: any, select
                     </TableBody>
                 </Table>
             </TableContainer>
-            <div style={{paddingTop: "30px"}}>
-                <Typography variant={"subtitle1"}>Information sourced on: 4/04/2023</Typography>
-            </div>
             <div style={{paddingTop: "40px"}}>
-                <Typography variant={"caption"}>Historical case, mortality, and vaccination data
-                    sourced through disease.sh - Open Disease Data API. Case and mortality
-                    information sourced from Johns Hopkins University. Vaccine information
-                    sourced from Our World in Data.</Typography>
+                <Typography variant={"caption"}>Case and mortality information sourced from Johns Hopkins University. Vaccine information sourced from Our World in Data. Territory exported from OSM and thus defined as on the ground. As a result, disputed territories are marked in regards to physical control.</Typography>
             </div>
-            <Typography>...</Typography>
-            <Typography variant={"caption"}>As the collection of live data was terminated in early 2023, this information is now sourced from stored static data, rather than the previously used live data API.</Typography>
         </div>
     );
 }

@@ -32,7 +32,7 @@ import vaccine from '../../public/data/vaccine.json';
 import vaccineHistorical from '../../public/data/vaccineHistorical.json';
 
 
-export function HomePage(){
+export const HomePage = () => {
     const [covidData, setCovidData] = useState([]);
 
     const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
@@ -91,11 +91,14 @@ export function HomePage(){
         countryNames.clear();
         countryCodes.clear();
 
-        for (let k = 0; k < countries.objects.countries.geometries.length; k++) {
-            countryNames.set(countries.objects.countries.geometries[k].properties.name.toString().toLowerCase(), countries.objects.countries.geometries[k].properties.name.toString());
-            countryCodes.set(countries.objects.countries.geometries[k].properties.name.toString(), countries.objects.countries.geometries[k].properties.code.toString());
-        }
+        for (const geometry of countries.objects.countries.geometries) {
+            const name = geometry.properties.name.toString();
+            const code = geometry.properties.code.toString();
+            const lowercaseName = name.toLowerCase();
 
+            countryNames.set(lowercaseName, name);
+            countryCodes.set(name, code);
+        }
 
         Object.entries(historical).forEach(([, value]) => {
             // @ts-ignore
@@ -108,18 +111,11 @@ export function HomePage(){
             fixCountryAliases(countryNameValue, countryMap, timelineValue, provinceNameValue);
         });
 
-
-
-        for (let i = 0; i < historicalAb.length; i++) {
-            countryMap.set(historicalAb[i].country.toLowerCase(), historicalAb[i].timeline);
-        }
-
+        historicalAb.forEach((item) => {
+            countryMap.set(item.country.toLowerCase(), item.timeline);
+        });
         setCountriesMap(countryMap);
-
     }
-
-
-
 
     function getData(countryInput: string, countryCode: string) {
         setSelectedAttributes(placeholderValue);
@@ -415,7 +411,7 @@ export function HomePage(){
     }
 
     // @ts-ignore
-    const colorScale = scaleQuantize().domain([0, Math.max(...Array.from(cMap.values())) / 5]).range(colorGradient);
+    const colorScale = scaleQuantize().domain([0, Math.max(...Array.from(cMap.values())) / 10]).range(colorGradient);
 
     const handleCountrySelectChange = (event: SelectChangeEvent) => {
         setContent(event.target.value);
@@ -448,7 +444,7 @@ export function HomePage(){
             <main className={styles.main}>
                 <ThemeProvider theme={theme}>
                     <Grid container spacing={1.5} className={styles.grid} alignItems={"stretch"}>
-                        <Grid item xs={12} xl={8}>
+                        <Grid item xs={12} lg={8}>
                             <Paper className={styles.paperboxes}>
                                 <WorldMap position={position} handleMoveEnd={handleMoveEnd} colorScale={colorScale} content={content} cMap={cMap} setContent={setContent} setCountry={setCountry} getData={getData}/>
                                 <MapControls handleZoomIn={handleZoomIn} handleZoomOut={handleZoomOut} centreMap={centreMap}/>
@@ -457,7 +453,7 @@ export function HomePage(){
                                 <TimelineSlider selectedAttributes={selectedAttributes} maximumSetTime={maximumSetTime} maximumTimeValue={maximumTimeValue} handleChange={handleChange} dataMap={dataMap}/>
                             </Paper>
                         </Grid>
-                        <Grid item xs={12} xl={4}>
+                        <Grid item xs={12} lg={4}>
                             <Paper className={styles.paperboxes}>
                                 <div className={styles.card}>
                                     <InformationPanel countryCode={countryCode} content={content} selectedAttributes={selectedAttributes}/>
@@ -508,4 +504,4 @@ export function HomePage(){
             </footer>
         </div>
     );
-}
+};

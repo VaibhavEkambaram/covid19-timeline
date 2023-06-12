@@ -17,7 +17,6 @@
           "id": "716",
           "properties": {
             "name": "Zimbabwe",
-            "fullname": "The Republic of Zimbabwe",
             "code": "ZW"
           }
         },
@@ -37,7 +36,6 @@
           "id": "894",
           "properties": {
             "name": "Zambia",
-            "fullname": "The Republic of Zambia",
             "code": "ZM"
 
           }
@@ -76,7 +74,6 @@
           "id": "887",
           "properties": {
             "name": "Yemen",
-            "fullname": "The Republic of Yemen",
             "code": "YE"
           }
         },
@@ -130,7 +127,6 @@
           "id": "704",
           "properties": {
             "name": "Vietnam",
-            "fullname": "The Socialist Republic of Viet Nam",
             "code": "VN"
           }
         },
@@ -169,7 +165,6 @@
           "id": "862",
           "properties": {
             "name": "Venezuela",
-            "fullname": "The Bolivarian Republic of Venezuela",
             "code": "VE"
           }
         },
@@ -183,7 +178,6 @@
           "id": "336",
           "properties": {
             "name": "Holy See",
-            "fullname": "The Holy See",
             "code": "VA"
           }
         },
@@ -264,7 +258,6 @@
           "id": "548",
           "properties": {
             "name": "Vanuatu",
-            "fullname": "The Republic of Vanuatu",
             "code": "VU"
 
           }
@@ -298,7 +291,6 @@
           "id": "860",
           "properties": {
             "name": "Uzbekistan",
-             "fullname": "The Republic of Uzbekistan",
             "code": "UZ"
 
           }
@@ -315,7 +307,6 @@
           "id": "858",
           "properties": {
             "name": "Uruguay",
-            "fullname": "The Oriental Republic of Uruguay",
             "code": "UY"
           }
         },
@@ -351,7 +342,6 @@
           "id": "583",
           "properties": {
             "name": "Micronesia",
-            "fullname": "The Federated States of Micronesia",
             "code": "FM"
           }
         },
@@ -387,7 +377,6 @@
           "id": "584",
           "properties": {
             "name": "Marshall Islands",
-            "fullname": "The Republic of the Marshall Islands",
             "code": "MH"
           }
         },
@@ -428,7 +417,6 @@
           "id": "580",
           "properties": {
             "name": "Northern Mariana Islands",
-            "fullname": "The Commonwealth of the Northern Mariana Islands",
             "code": "MP"
 
           }
@@ -455,7 +443,6 @@
           "id": "850",
           "properties": {
             "name": "United States Virgin Islands",
-            "fullname": "The Virgin Islands of the United States",
             "code": "VI"
           }
         },
@@ -469,7 +456,6 @@
           "id": "316",
           "properties": {
             "name": "Guam",
-            "fullname": "The Territory of Guam",
             "code": "GU"
           }
         },
@@ -483,7 +469,6 @@
           "id": "016",
           "properties": {
             "name": "American Samoa",
-            "fullname": "The Territory of American Samoa",
             "code": "AS"
           }
         },
@@ -509,7 +494,6 @@
           "id": "630",
           "properties": {
             "name": "Puerto Rico",
-            "fullname": "The Commonwealth of Puerto Rico",
             "code": "PR"
           }
         },
@@ -1162,7 +1146,6 @@
           "id": "840",
           "properties": {
             "name": "United States of America",
-            "fullname": "The United States of America",
             "code": "US"
           }
         },
@@ -1183,7 +1166,6 @@
           "id": "239",
           "properties": {
             "name": "South Georgia and the South Sandwich Islands",
-            "fullname": "South Georgia and the South Sandwich Islands",
             "code": "GS"
           }
         },
@@ -1197,7 +1179,6 @@
           "id": "086",
           "properties": {
             "name": "British Indian Ocean Territory",
-            "fullname": "The British Indian Ocean Territory",
             "code": "IO"
           }
         },
@@ -1218,7 +1199,6 @@
           "id": "654",
           "properties": {
             "name": "Saint Helena, Ascension and Tristan da Cunha",
-            "fullname": "Saint Helena, Ascension and Tristan da Cunha",
             "code": "SH"
 
           }
@@ -1233,7 +1213,6 @@
           "id": "612",
           "properties": {
             "name": "Pitcairn Islands",
-            "fullname": "The Pitcairn, Henderson, Ducie and Oeno Islands",
             "code": "PN"
           }
         },
@@ -1247,7 +1226,6 @@
           "id": "660",
           "properties": {
             "name": "Anguilla",
-            "fullname": "Anguilla",
             "code": "AI"
           }
         },
@@ -1288,7 +1266,6 @@
           "id": "238",
           "properties": {
             "name": "Falkland Islands (Malvinas)",
-            "fullname": "The Falkland Islands",
             "code": "FK"
           }
         },
@@ -1314,7 +1291,6 @@
           "id": "136",
           "properties": {
             "name": "Cayman Islands",
-            "fullname": "The Cayman Islands",
             "code": "KY"
           }
         },
@@ -1328,7 +1304,6 @@
           "id": "060",
           "properties": {
             "name": "Bermuda",
-            "fullname": "Bermuda",
             "code": "BM"
           }
         },
@@ -1354,7 +1329,6 @@
           "id": "092",
           "properties": {
             "name": "British Virgin Islands",
-            "fullname": "The Virgin Islands",
             "code": "VG"
           }
         },
@@ -1380,7 +1354,6 @@
           "id": "796",
           "properties": {
             "name": "Turks and Caicos Islands",
-            "fullname": "The Turks and Caicos Islands",
             "code": "TC"
 
           }
@@ -1395,7 +1368,6 @@
           "id": "500",
           "properties": {
             "name": "Montserrat",
-            "fullname": "Montserrat",
             "code": "MS"
           }
         },
@@ -1409,7 +1381,6 @@
           "id": "832",
           "properties": {
             "name": "Jersey",
-            "fullname": "The Bailiwick of Jersey",
             "code": "JE"
           }
         },
@@ -1423,7 +1394,6 @@
           "id": "831",
           "properties": {
             "name": "Guernsey",
-            "fullname": "The Bailiwick of Guernsey",
             "code": "GG"
           }
         },
@@ -1437,7 +1407,6 @@
           "id": "833",
           "properties": {
             "name": "Isle of Man",
-            "fullname": "The Isle of Man",
             "code": "IM"
           }
         },
@@ -1564,7 +1533,6 @@
           "id": "826",
           "properties": {
             "name": "United Kingdom of Great Britain and Northern Ireland",
-            "fullname": "The United Kingdom of Great Britain and Northern Ireland",
             "code": "GB"
 
           }
@@ -1608,7 +1576,6 @@
           "id": "784",
           "properties": {
             "name": "United Arab Emirates",
-            "fullname": "The United Arab Emirates",
             "code": "AE"
           }
         },
@@ -1639,7 +1606,6 @@
           "id": "804",
           "properties": {
             "name": "Ukraine",
-            "fullname": "Ukraine",
             "code": "UA"
 
           }
@@ -1658,7 +1624,6 @@
           "id": "800",
           "properties": {
             "name": "Uganda",
-            "fullname": "The Republic of Uganda",
             "code": "UG"
           }
         },
@@ -1683,7 +1648,6 @@
           "id": "795",
           "properties": {
             "name": "Turkmenistan",
-            "fullname": "Turkmenistan",
             "code": "TM"
           }
         },
@@ -1717,7 +1681,6 @@
           "id": "792",
           "properties": {
             "name": "Türkiye",
-            "fullname": "The Republic of Türkiye",
             "code": "TR"
           }
         },
@@ -1745,7 +1708,6 @@
           "id": "788",
           "properties": {
             "name": "Tunisia",
-            "fullname": "The Republic of Tunisia",
             "code": "TN"
 
           }
@@ -1767,7 +1729,6 @@
           "id": "780",
           "properties": {
             "name": "Trinidad and Tobago",
-            "fullname": "The Republic of Trinidad and Tobago",
             "code": "TT"
           }
         },
@@ -1793,7 +1754,6 @@
           "id": "776",
           "properties": {
             "name": "Tonga",
-            "fullname": "The Kingdom of Tonga",
             "code": "TO"
 
           }
@@ -1811,7 +1771,6 @@
           "id": "768",
           "properties": {
             "name": "Togo",
-            "fullname": "The Togolese Republic",
             "code": "TG"
           }
         },
@@ -1839,7 +1798,6 @@
           "id": "626",
           "properties": {
             "name": "Timor-Leste",
-            "fullname": "The Democratic Republic of Timor-Leste",
             "code": "TL"
           }
         },
@@ -1905,7 +1863,6 @@
           "id": "764",
           "properties": {
             "name": "Thailand",
-            "fullname": "The Kingdom of Thailand",
             "code": "TH"
           }
         },
@@ -1944,7 +1901,6 @@
           "id": "834",
           "properties": {
             "name": "Tanzania",
-            "fullname": "The United Republic of Tanzania",
             "code": "TZ"
 
           }
@@ -1974,7 +1930,6 @@
           "id": "762",
           "properties": {
             "name": "Tajikistan",
-            "fullname": "The Republic of Tajikistan",
             "code": "TJ"
           }
         },
@@ -1995,7 +1950,6 @@
           "id": "158",
           "properties": {
             "name": "Taiwan",
-            "fullname": "The Republic of China",
             "code": "TW"
           }
         },
@@ -2014,7 +1968,6 @@
           "id": "760",
           "properties": {
             "name": "Syria",
-            "fullname": "The Syrian Arab Republic",
             "code": "SY"
           }
         },
@@ -2033,7 +1986,6 @@
           "id": "756",
           "properties": {
             "name": "Switzerland",
-            "fullname": "The Swiss Confederation",
             "code": "CH"
           }
         },
@@ -2076,7 +2028,6 @@
           "id": "752",
           "properties": {
             "name": "Sweden",
-            "fullname": "The Kingdom of Sweden",
             "code": "SE"
 
           }
@@ -2092,7 +2043,6 @@
           "id": "748",
           "properties": {
             "name": "Eswatini",
-            "fullname": "The Kingdom of Eswatini",
             "code": "SZ"
           }
         },
@@ -2109,7 +2059,6 @@
           "id": "740",
           "properties": {
             "name": "Suriname",
-            "fullname": "The Republic of Suriname",
             "code": "SR"
           }
         },
@@ -2128,7 +2077,6 @@
           "id": "728",
           "properties": {
             "name": "South Sudan",
-            "fullname": "The Republic of South Sudan",
             "code": "SS"
           }
         },
@@ -2149,7 +2097,6 @@
           "id": "729",
           "properties": {
             "name": "Sudan",
-            "fullname": "The Republic of the Sudan",
             "code": "SD"
           }
         },
@@ -2175,7 +2122,6 @@
           "id": "144",
           "properties": {
             "name": "Sri Lanka",
-            "fullname": "The Democratic Socialist Republic of Sri Lanka",
             "code": "LK"
           }
         },
@@ -2251,7 +2197,6 @@
           "id": "724",
           "properties": {
             "name": "Spain",
-            "fullname": "The Kingdom of Spain",
             "code": "ES"
           }
         },
@@ -2318,7 +2263,6 @@
           "id": "410",
           "properties": {
             "name": "South Korea",
-            "fullname": "The Republic of Korea",
             "code": "KR"
           }
         },
@@ -2348,7 +2292,6 @@
           "id": "710",
           "properties": {
             "name": "South Africa",
-            "fullname": "The Republic of South Africa",
             "code": "ZA"
           }
         },
@@ -2365,7 +2308,6 @@
           "id": "706",
           "properties": {
             "name": "Somalia",
-            "fullname": "The Federal Republic of Somalia",
             "code": "SO"
           }
         },
@@ -2381,7 +2323,6 @@
           ],
           "properties": {
             "name": "Somaliland",
-            "fullname": "",
             "code": ""
           }
         },
@@ -2497,7 +2438,6 @@
           "id": "090",
           "properties": {
             "name": "Solomon Islands",
-            "fullname": "The Solomon Islands",
             "code": "SB"
           }
         },
@@ -2515,7 +2455,6 @@
           "id": "703",
           "properties": {
             "name": "Slovakia",
-            "fullname": "The Slovak Republic",
             "code": "SK"
           }
         },
@@ -2533,7 +2472,6 @@
           "id": "705",
           "properties": {
             "name": "Slovenia",
-            "fullname": "The Republic of Slovenia",
             "code": "SI"
 
           }
@@ -2548,7 +2486,6 @@
           "id": "702",
           "properties": {
             "name": "Singapore",
-            "fullname": "The Republic of Singapore",
             "code": "SG"
           }
         },
@@ -2571,7 +2508,6 @@
           "id": "694",
           "properties": {
             "name": "Sierra Leone",
-            "fullname": "The Republic of Sierra Leone",
             "code": "SL"
           }
         },
@@ -2585,7 +2521,6 @@
           "id": "690",
           "properties": {
             "name": "Seychelles",
-            "fullname": "The Republic of Seychelles",
             "code": "SC"
           }
         },
@@ -2606,7 +2541,6 @@
           "id": "688",
           "properties": {
             "name": "Serbia",
-            "fullname": "The Republic of Serbia",
             "code": "RS"
           }
         },
@@ -2626,7 +2560,6 @@
           "id": "686",
           "properties": {
             "name": "Senegal",
-            "fullname": "The Republic of Senegal",
             "code": "SN"
           }
         },
@@ -2666,7 +2599,6 @@
           "id": "682",
           "properties": {
             "name": "Saudi Arabia",
-            "fullname": "The Kingdom of Saudi Arabia",
             "code": "SA"
           }
         },
@@ -2687,7 +2619,6 @@
           "id": "678",
           "properties": {
             "name": "São Tomé and Príncipe",
-            "fullname": "Democratic Republic of São Tomé and Príncipe",
             "code": "ST"
           }
         },
@@ -2701,7 +2632,6 @@
           "id": "674",
           "properties": {
             "name": "San Marino",
-            "fullname": "The Republic of San Marino",
             "code": "SM"
           }
         },
@@ -2722,7 +2652,6 @@
           "id": "882",
           "properties": {
             "name": "Samoa",
-            "fullname": "The Independent State of Samoa",
             "code": "WS"
           }
         },
@@ -2748,7 +2677,6 @@
           "id": "670",
           "properties": {
             "name": "Saint Vincent and the Grenadines",
-            "fullname": "Saint Vincent and the Grenadines",
             "code": "VC"
 
           }
@@ -2763,7 +2691,6 @@
           "id": "662",
           "properties": {
             "name": "Saint Lucia",
-            "fullname": "Saint Lucia",
             "code": "LC"
           }
         },
@@ -2784,7 +2711,6 @@
           "id": "659",
           "properties": {
             "name": "Saint Kitts and Nevis",
-            "fullname": "Saint Kitts and Nevis",
             "code": "KN"
           }
         },
@@ -2801,7 +2727,6 @@
           "id": "646",
           "properties": {
             "name": "Rwanda",
-            "fullname": "The Republic of Rwanda",
             "code": "RW"
 
           }
@@ -3329,7 +3254,6 @@
           "id": "643",
           "properties": {
             "name": "Russia",
-            "fullname": "The Russian Federation",
             "code": "RU"
           }
         },
@@ -3349,7 +3273,6 @@
           "id": "642",
           "properties": {
             "name": "Romania",
-            "fullname": "Romania",
             "code": "RO"
           }
         },
@@ -3364,7 +3287,6 @@
           "id": "634",
           "properties": {
             "name": "Qatar",
-            "fullname": "The State of Qatar",
             "code": "QA"
           }
         },
@@ -3421,7 +3343,6 @@
           "id": "620",
           "properties": {
             "name": "Portugal",
-            "fullname": "The Portuguese Republic",
             "code": "PT"
 
           }
@@ -3445,7 +3366,6 @@
           "id": "616",
           "properties": {
             "name": "Poland",
-            "fullname": "The Republic of Poland",
             "code": "PL"
           }
         },
@@ -3696,7 +3616,6 @@
           "id": "608",
           "properties": {
             "name": "Philippines",
-            "fullname": "The Republic of the Philippines",
             "code": "PH"
           }
         },
@@ -3715,7 +3634,6 @@
           "id": "604",
           "properties": {
             "name": "Peru",
-            "fullname": "Republic of Peru",
             "code": "PE"
           }
         },
@@ -3731,7 +3649,6 @@
           "id": "600",
           "properties": {
             "name": "Paraguay",
-            "fullname": "The Republic of Paraguay",
             "code": "PY"
           }
         },
@@ -3873,7 +3790,6 @@
           "id": "598",
           "properties": {
             "name": "Papua New Guinea",
-            "fullname": "The Independent State of Papua New Guinea",
             "code": "PG"
           }
         },
@@ -3912,7 +3828,6 @@
           "id": "591",
           "properties": {
             "name": "Panama",
-            "fullname": "Republic of Panama",
             "code": "PA"
           }
         },
@@ -3933,7 +3848,6 @@
           "id": "585",
           "properties": {
             "name": "Palau",
-            "fullname": "The Republic of Palau",
             "code": "PW"
           }
         },
@@ -3952,7 +3866,6 @@
           "id": "586",
           "properties": {
             "name": "Pakistan",
-            "fullname": "The Islamic Republic of Pakistan",
             "code": "PK"
           }
         },
@@ -3987,7 +3900,6 @@
           "id": "512",
           "properties": {
             "name": "Oman",
-            "fullname": "The Sultanate of Oman",
             "code": "OM"
           }
         },
@@ -4161,7 +4073,6 @@
           "id": "578",
           "properties": {
             "name": "Norway",
-            "fullname": "The Kingdom of Norway",
             "code": "NO"
           }
         },
@@ -4186,7 +4097,6 @@
           "id": "408",
           "properties": {
             "name": "North Korea",
-            "fullname": "Democratic People's Republic of Korea",
             "code": "KP"
           }
         },
@@ -4211,7 +4121,6 @@
           "id": "566",
           "properties": {
             "name": "Nigeria",
-            "fullname": "The Federal Republic of Nigeria",
             "code": "NG"
           }
         },
@@ -4231,7 +4140,6 @@
           "id": "562",
           "properties": {
             "name": "Niger",
-            "fullname": "The Republic of the Niger",
             "code": "NE"
           }
         },
@@ -4248,7 +4156,6 @@
           "id": "558",
           "properties": {
             "name": "Nicaragua",
-            "fullname": "The Republic of Nicaragua",
             "code": "NI"
           }
         },
@@ -4324,7 +4231,6 @@
           "id": "554",
           "properties": {
             "name": "New Zealand",
-            "fullname": "New Zealand",
             "code": "NZ"
           }
         },
@@ -4338,7 +4244,6 @@
           "id": "570",
           "properties": {
             "name": "Niue",
-            "fullname": "Niue",
             "code": "NU"
           }
         },
@@ -4352,7 +4257,6 @@
           "id": "184",
           "properties": {
             "name": "Cook Islands",
-            "fullname": "The Cook Islands",
             "code": "CK"
           }
         },
@@ -4426,7 +4330,6 @@
           "id": "528",
           "properties": {
             "name": "Netherlands",
-            "fullname": "The Kingdom of the Netherlands",
             "code": "NL"
           }
         },
@@ -4440,7 +4343,6 @@
           "id": "533",
           "properties": {
             "name": "Aruba",
-            "fullname": "Aruba",
             "code": "AW"
           }
         },
@@ -4454,7 +4356,6 @@
           "id": "531",
           "properties": {
             "name": "Curaçao",
-            "fullname": "The Country of Curaçao",
             "code": "CW"
           }
         },
@@ -4469,7 +4370,6 @@
           "id": "524",
           "properties": {
             "name": "Nepal",
-            "fullname": "The Federal Democratic Republic of Nepal",
             "code": "NP"
           }
         },
@@ -4483,7 +4383,6 @@
           "id": "520",
           "properties": {
             "name": "Nauru",
-            "fullname": "The Republic of Nauru",
             "code": "NR"
           }
         },
@@ -4501,7 +4400,6 @@
           "id": "516",
           "properties": {
             "name": "Namibia",
-            "fullname": "The Republic of Namibia",
             "code": "NA"
           }
         },
@@ -4528,7 +4426,6 @@
           "id": "508",
           "properties": {
             "name": "Mozambique",
-            "fullname": "Republic of Mozambique",
             "code": "MZ"
           }
         },
@@ -4544,7 +4441,6 @@
           "id": "504",
           "properties": {
             "name": "Morocco",
-            "fullname": "The Kingdom of Morocco",
             "code": "MA"
           }
         },
@@ -4561,7 +4457,6 @@
           "id": "732",
           "properties": {
             "name": "Western Sahara",
-            "fullname": "The Sahrawi Arab Democratic Republic",
             "code": "EH"
           }
         },
@@ -4580,7 +4475,6 @@
           "id": "499",
           "properties": {
             "name": "Montenegro",
-            "fullname": "Montenegro",
             "code": "ME"
           }
         },
@@ -4595,8 +4489,7 @@
           "id": "496",
           "properties": {
             "name": "Mongolia",
-            "fullname": "Mongolia",
-            "code": "MN"
+           "code": "MN"
           }
         },
         {
@@ -4610,7 +4503,6 @@
           "id": "498",
           "properties": {
             "name": "Moldova",
-            "fullname": "The Republic of Moldova",
             "code": "MD"
           }
         },
@@ -4625,7 +4517,6 @@
           "id": "492",
           "properties": {
             "name": "Monaco",
-            "fullname": "The Principality of Monaco",
             "code": "MC"
           }
         },
@@ -4720,7 +4611,6 @@
           "id": "484",
           "properties": {
             "name": "Mexico",
-            "fullname": "The United Mexican States",
             "code": "MX"
           }
         },
@@ -4734,7 +4624,6 @@
           "id": "480",
           "properties": {
             "name": "Mauritius",
-            "fullname": "The Republic of Mauritius",
             "code": "MU"
           }
         },
@@ -4759,7 +4648,6 @@
           "id": "478",
           "properties": {
             "name": "Mauritania",
-            "fullname": "The Islamic Republic of Mauritania",
             "code": "MR"
           }
         },
@@ -4780,7 +4668,6 @@
           "id": "470",
           "properties": {
             "name": "Malta",
-            "fullname": "The Republic of Malta",
             "code": "MT"
           }
         },
@@ -4800,7 +4687,6 @@
           "id": "466",
           "properties": {
             "name": "Mali",
-            "fullname": "The Republic of Mali",
             "code": "ML"
           }
         },
@@ -4821,7 +4707,6 @@
           "id": "462",
           "properties": {
             "name": "Maldives",
-            "fullname": "The Republic of Maldives",
             "code": "MV"
           }
         },
@@ -4883,7 +4768,6 @@
           "id": "458",
           "properties": {
             "name": "Malaysia",
-            "fullname": "Malaysia",
             "code": "MY"
           }
         },
@@ -4911,7 +4795,6 @@
           "id": "454",
           "properties": {
             "name": "Malawi",
-            "fullname": "The Republic of Malawi",
             "code": "MW"
           }
         },
@@ -4937,7 +4820,6 @@
           "id": "450",
           "properties": {
             "name": "Madagascar",
-            "fullname": "The Republic of Madagascar",
             "code": "MG"
           }
         },
@@ -4955,7 +4837,6 @@
           "id": "807",
           "properties": {
             "name": "North Macedonia",
-            "fullname": "The Republic of North Macedonia",
             "code": "MK"
           }
         },
@@ -4971,7 +4852,6 @@
           "id": "442",
           "properties": {
             "name": "Luxembourg",
-            "fullname": "The Grand Duchy of Luxembourg",
             "code": "LU"
           }
         },
@@ -4997,7 +4877,6 @@
           "id": "440",
           "properties": {
             "name": "Lithuania",
-            "fullname": "The Republic of Lithuania",
             "code": "LT"
           }
         },
@@ -5012,7 +4891,6 @@
           "id": "438",
           "properties": {
             "name": "Liechtenstein",
-            "fullname": "The Principality of Liechtenstein",
             "code": "LI"
           }
         },
@@ -5032,7 +4910,6 @@
           "id": "434",
           "properties": {
             "name": "Libya",
-            "fullname": "The State of Libya",
             "code": "LY"
           }
         },
@@ -5049,7 +4926,6 @@
           "id": "430",
           "properties": {
             "name": "Liberia",
-            "fullname": "The Republic of Liberia",
             "code": "LR"
           }
         },
@@ -5063,7 +4939,6 @@
           "id": "426",
           "properties": {
             "name": "Lesotho",
-            "fullname": "The Kingdom of Lesotho",
             "code": "LS"
           }
         },
@@ -5079,7 +4954,6 @@
           "id": "422",
           "properties": {
             "name": "Lebanon",
-            "fullname": "The Lebanese Republic",
             "code": "LB"
           }
         },
@@ -5097,7 +4971,6 @@
           "id": "428",
           "properties": {
             "name": "Latvia",
-            "fullname": "The Republic of Latvia",
             "code": "LV"
           }
         },
@@ -5115,7 +4988,6 @@
           "id": "418",
           "properties": {
             "name": "Laos",
-            "fullname": "The Lao People's Democratic Republic",
             "code": "LA"
           }
         },
@@ -5141,7 +5013,6 @@
           "id": "417",
           "properties": {
             "name": "Kyrgyzstan",
-            "fullname": "The Kyrgyz Republic",
             "code": "KG"
           }
         },
@@ -5164,7 +5035,6 @@
           "id": "414",
           "properties": {
             "name": "Kuwait",
-            "fullname": "The State of Kuwait",
             "code": "KW"
           }
         },
@@ -5180,7 +5050,6 @@
           ],
           "properties": {
             "name": "Kosovo",
-            "fullname": "Republic of Kosovo",
             "code": "xk"
           }
         },
@@ -5286,7 +5155,6 @@
           "id": "296",
           "properties": {
             "name": "Kiribati",
-            "fullname": "The Republic of Kiribati",
             "code": "KI"
           }
         },
@@ -5312,7 +5180,6 @@
           "id": "404",
           "properties": {
             "name": "Kenya",
-            "fullname": "The Republic of Kenya",
             "code": "KE"
           }
         },
@@ -5348,7 +5215,6 @@
           "id": "398",
           "properties": {
             "name": "Kazakhstan",
-            "fullname": "The Republic of Kazakhstan",
             "code": "KZ"
           }
         },
@@ -5368,7 +5234,6 @@
           "id": "400",
           "properties": {
             "name": "Jordan",
-            "fullname": "The Hashemite Kingdom of Jordan",
             "code": "JO"
           }
         },
@@ -5549,7 +5414,6 @@
           "id": "392",
           "properties": {
             "name": "Japan",
-            "fullname": "Japan",
             "code": "JP"
           }
         },
@@ -5563,7 +5427,6 @@
           "id": "388",
           "properties": {
             "name": "Jamaica",
-            "fullname": "Jamaica",
             "code": "JM"
           }
         },
@@ -5624,7 +5487,6 @@
           "id": "380",
           "properties": {
             "name": "Italy",
-            "fullname": "The Italian Republic",
             "code": "IT"
           }
         },
@@ -5646,7 +5508,6 @@
           "id": "376",
           "properties": {
             "name": "Israel",
-            "fullname": "The State of Israel",
             "code": "IL"
           }
         },
@@ -5670,7 +5531,6 @@
           "id": "275",
           "properties": {
             "name": "Palestine",
-            "fullname": "The State of Palestine",
             "code": "PS"
           }
         },
@@ -5692,7 +5552,6 @@
           "id": "372",
           "properties": {
             "name": "Ireland",
-            "fullname": "Ireland",
             "code": "IE"
           }
         },
@@ -5712,7 +5571,6 @@
           "id": "368",
           "properties": {
             "name": "Iraq",
-            "fullname": "The Republic of Iraq",
             "code": "IQ"
           }
         },
@@ -5742,7 +5600,6 @@
           "id": "364",
           "properties": {
             "name": "Iran",
-            "fullname": "The Islamic Republic of Iran",
             "code": "IR"
           }
         },
@@ -6424,26 +6281,12 @@
           "id": "360",
           "properties": {
             "name": "Indonesia",
-            "fullname": "The Republic of Indonesia",
             "code": "ID"
 
           }
         },
         {
           "type": "MultiPolygon",
-
-
-
-
-
-
-
-
-
-
-
-
-
           "arcs": [
             [
               [
@@ -6530,7 +6373,6 @@
           "id": "356",
           "properties": {
             "name": "India",
-            "fullname": "The Republic of India",
             "code": "IN"
           }
         },
@@ -6544,7 +6386,6 @@
           "id": "352",
           "properties": {
             "name": "Iceland",
-            "fullname": "Iceland",
             "code": "IS"
           }
         },
@@ -6564,7 +6405,6 @@
           "id": "348",
           "properties": {
             "name": "Hungary",
-            "fullname": "Hungary",
             "code": "HU"
           }
         },
@@ -6594,7 +6434,6 @@
           "id": "340",
           "properties": {
             "name": "Honduras",
-            "fullname": "The Republic of Honduras",
             "code": "HN"
           }
         },
@@ -6621,7 +6460,6 @@
           "id": "332",
           "properties": {
             "name": "Haiti",
-            "fullname": "The Republic of Haiti",
             "code": "HT"
           }
         },
@@ -6638,7 +6476,6 @@
           "id": "328",
           "properties": {
             "name": "Guyana",
-            "fullname": "The Co-operative Republic of Guyana",
             "code": "GY"
           }
         },
@@ -6686,7 +6523,6 @@
           "id": "624",
           "properties": {
             "name": "Guinea-Bissau",
-            "fullname": "The Republic of Guinea-Bissau",
             "code": "GW"
           }
         },
@@ -6706,7 +6542,6 @@
           "id": "324",
           "properties": {
             "name": "Guinea",
-            "fullname": "The Republic of Guinea",
             "code": "GN"
           }
         },
@@ -6725,7 +6560,6 @@
           "id": "320",
           "properties": {
             "name": "Guatemala",
-            "fullname": "The Republic of Guatemala",
             "code": "GT"
           }
         },
@@ -6739,7 +6573,6 @@
           "id": "308",
           "properties": {
             "name": "Grenada",
-            "fullname": "Grenada",
             "code": "GD"
           }
         },
@@ -6954,7 +6787,6 @@
           "id": "300",
           "properties": {
             "name": "Greece",
-            "fullname": "The Hellenic Republic",
             "code": "GR"
           }
         },
@@ -6973,7 +6805,6 @@
           "id": "288",
           "properties": {
             "name": "Ghana",
-            "fullname": "The Republic of Ghana",
             "code": "GH"
           }
         },
@@ -7025,7 +6856,6 @@
           "id": "276",
           "properties": {
             "name": "Germany",
-            "fullname": "The Federal Republic of Germany",
             "code": "DE"
           }
         },
@@ -7043,7 +6873,6 @@
           "id": "268",
           "properties": {
             "name": "Georgia",
-            "fullname": "Georgia",
             "code": "GE"
           }
         },
@@ -7058,7 +6887,6 @@
           "id": "270",
           "properties": {
             "name": "Gambia",
-            "fullname": "The Republic of The Gambia",
             "code": "GM"
           }
         },
@@ -7075,7 +6903,6 @@
           "id": "266",
           "properties": {
             "name": "Gabon",
-            "fullname": "The Gabonese Republic",
             "code": "GA"
           }
         },
@@ -7149,7 +6976,6 @@
           "id": "250",
           "properties": {
             "name": "France",
-            "fullname": "The French Republic",
             "code": "FR"
 
           }
@@ -7171,7 +6997,6 @@
           "id": "666",
           "properties": {
             "name": "Saint Pierre and Miquelon",
-            "fullname": "The Overseas Collectivity of Saint-Pierre and Miquelon",
             "code": "PM"
           }
         },
@@ -7192,7 +7017,6 @@
           "id": "876",
           "properties": {
             "name": "Wallis and Futuna",
-            "fullname": "The Territory of the Wallis and Futuna Islands",
             "code": "WF"
           }
         },
@@ -7207,7 +7031,6 @@
           "id": "663",
           "properties": {
             "name": "Saint Martin",
-            "fullname": "The Collectivity of Saint-Martin",
             "code": "MF"
           }
         },
@@ -7221,7 +7044,6 @@
           "id": "652",
           "properties": {
             "name": "Saint Barthélemy",
-            "fullname": "The Collectivity of Saint-Barthélemy",
             "code": "BL"
           }
         },
@@ -7337,7 +7159,6 @@
           "id": "258",
           "properties": {
             "name": "French Polynesia",
-            "fullname": "French Polynesia",
             "code": "PF"
           }
         },
@@ -7378,7 +7199,6 @@
           "id": "540",
           "properties": {
             "name": "New Caledonia",
-            "fullname": "New Caledonia",
             "code": "NC"
           }
         },
@@ -7404,7 +7224,6 @@
           "id": "260",
           "properties": {
             "name": "French Southern Territories",
-            "fullname": "The French Southern and Antarctic Lands",
             "code": "TF"
           }
         },
@@ -7430,7 +7249,6 @@
           "id": "248",
           "properties": {
             "name": "Åland Islands",
-            "fullname": "Aland",
             "code": "AX"
           }
         },
@@ -7484,7 +7302,6 @@
           "id": "246",
           "properties": {
             "name": "Finland",
-            "fullname": "The Republic of Finland",
             "code": "FI"
           }
         },
@@ -7595,7 +7412,6 @@
           "id": "242",
           "properties": {
             "name": "Fiji",
-            "fullname": "The Republic of Fiji",
             "code": "FJ"
           }
         },
@@ -7615,7 +7431,6 @@
           "id": "231",
           "properties": {
             "name": "Ethiopia",
-            "fullname": "The Federal Democratic Republic of Ethiopia",
             "code": "ET"
           }
         },
@@ -7648,7 +7463,6 @@
           "id": "233",
           "properties": {
             "name": "Estonia",
-            "fullname": "The Republic of Estonia",
             "code": "EE"
           }
         },
@@ -7677,7 +7491,6 @@
           "id": "232",
           "properties": {
             "name": "Eritrea",
-            "fullname": "The State of Eritrea",
             "code": "ER"
           }
         },
@@ -7700,7 +7513,6 @@
           "id": "226",
           "properties": {
             "name": "Equatorial Guinea",
-            "fullname": "The Republic of Equatorial Guinea",
             "code": "GQ"
           }
         },
@@ -7716,7 +7528,6 @@
           "id": "222",
           "properties": {
             "name": "El Salvador",
-            "fullname": "The Republic of El Salvador",
             "code": "SV"
           }
         },
@@ -7735,7 +7546,6 @@
           "id": "818",
           "properties": {
             "name": "Egypt",
-            "fullname": "The Arab Republic of Egypt",
             "code": "EG"
           }
         },
@@ -7793,7 +7603,6 @@
           "id": "218",
           "properties": {
             "name": "Ecuador",
-            "fullname": "The Republic of Ecuador",
             "code": "EC"
           }
         },
@@ -7808,7 +7617,6 @@
           "id": "214",
           "properties": {
             "name": "Dominican Republic",
-            "fullname": "The Dominican Republic",
             "code": "DO"
           }
         },
@@ -7822,7 +7630,6 @@
           "id": "212",
           "properties": {
             "name": "Dominica",
-            "fullname": "The Commonwealth of Dominica",
             "code": "DM"
           }
         },
@@ -7839,7 +7646,6 @@
           "id": "262",
           "properties": {
             "name": "Djibouti",
-            "fullname": "The Republic of Djibouti",
             "code": "DJ"
           }
         },
@@ -7935,7 +7741,6 @@
           "id": "304",
           "properties": {
             "name": "Greenland",
-            "fullname": "Kalaallit Nunaat",
             "code": "GL"
           }
         },
@@ -7971,7 +7776,6 @@
           "id": "234",
           "properties": {
             "name": "Faroe Islands",
-            "fullname": "The Faroe Islands",
             "code": "FO"
 
           }
@@ -8044,7 +7848,6 @@
           "id": "208",
           "properties": {
             "name": "Denmark",
-            "fullname": "The Kingdom of Denmark",
             "code": "DK"
           }
         },
@@ -8061,7 +7864,6 @@
           "id": "203",
           "properties": {
             "name": "Czechia",
-            "fullname": "The Czech Republic",
             "code": "CZ"
           }
         },
@@ -8075,7 +7877,6 @@
           ],
           "properties": {
             "name": "Northern Cyprus",
-            "fullname": "",
             "code": ""
           }
         },
@@ -8090,7 +7891,6 @@
           "id": "196",
           "properties": {
             "name": "Cyprus",
-            "fullname": "The Republic of Cyprus",
             "code": "CY"
           }
         },
@@ -8136,7 +7936,6 @@
           "id": "192",
           "properties": {
             "name": "Cuba",
-            "fullname": "The Republic of Cuba",
             "code": "CU"
           }
         },
@@ -8218,7 +8017,6 @@
           "id": "191",
           "properties": {
             "name": "Croatia",
-            "fullname": "The Republic of Croatia",
             "code": "HR"
           }
         },
@@ -8245,7 +8043,6 @@
           "id": "384",
           "properties": {
             "name": "Côte d'Ivoire",
-            "fullname": "The Republic of Côte d'Ivoire",
             "code": "CI"
           }
         },
@@ -8262,7 +8059,6 @@
           "id": "188",
           "properties": {
             "name": "Costa Rica",
-            "fullname": "The Republic of Costa Rica",
             "code": "CR"
           }
         },
@@ -8286,7 +8082,6 @@
           "id": "180",
           "properties": {
             "name": "Democratic Republic of the Congo",
-            "fullname": "The Democratic Republic of the Congo",
             "code": "CD"
           }
         },
@@ -8305,7 +8100,6 @@
           "id": "178",
           "properties": {
             "name": "Republic of the Congo",
-            "fullname": "The Republic of the Congo",
             "code": "CG"
           }
         },
@@ -8331,7 +8125,6 @@
           "id": "174",
           "properties": {
             "name": "Comoros",
-            "fullname": "The Union of the Comoros",
             "code": "KM"
           }
         },
@@ -8358,7 +8151,6 @@
           "id": "170",
           "properties": {
             "name": "Colombia",
-            "fullname": "The Republic of Colombia",
             "code": "CO"
           }
         },
@@ -8456,7 +8248,6 @@
           "id": "156",
           "properties": {
             "name": "China",
-            "fullname": "The People's Republic of China",
             "code": "CN"
           }
         },
@@ -8471,7 +8262,6 @@
           "id": "446",
           "properties": {
             "name": "Macau",
-            "fullname": "The Macau Special Administrative Region of China",
             "code": "MO"
 
           }
@@ -8499,7 +8289,6 @@
           "id": "344",
           "properties": {
             "name": "Hong Kong",
-            "fullname": "The Hong Kong Special Administrative Region of China",
             "code": "HK"
           }
         },
@@ -8669,7 +8458,6 @@
           "id": "152",
           "properties": {
             "name": "Chile",
-            "fullname": "The Republic of Chile",
             "code": "CL"
 
           }
@@ -8689,7 +8477,6 @@
           "id": "148",
           "properties": {
             "name": "Chad",
-             "fullname": "The Republic of Chad",
             "code": "TD"
           }
         },
@@ -8708,7 +8495,6 @@
           "id": "140",
           "properties": {
             "name": "Central African Republic",
-            "fullname": "The Central African Republic",
             "code": "CF"
           }
         },
@@ -8759,7 +8545,6 @@
           "id": "132",
           "properties": {
             "name": "Cabo Verde",
-            "fullname": "The Republic of Cabo Verde",
             "code": "CV"
           }
         },
@@ -9480,7 +9265,6 @@
           "id": "124",
           "properties": {
             "name": "Canada",
-            "fullname": "Canada",
             "code": "CA"
           }
         },
@@ -9500,7 +9284,6 @@
           "id": "120",
           "properties": {
             "name": "Cameroon",
-            "fullname": "The Republic of Cameroon",
             "code": "CM"
           }
         },
@@ -9529,7 +9312,6 @@
           "id": "116",
           "properties": {
             "name": "Cambodia",
-            "fullname": "The Kingdom of Cambodia",
             "code": "KH"
           }
         },
@@ -9640,7 +9422,6 @@
           "id": "104",
           "properties": {
             "name": "Myanmar",
-            "fullname": "The Republic of the Union of Myanmar",
             "code": "MM"
           }
         },
@@ -9656,7 +9437,6 @@
           "id": "108",
           "properties": {
             "name": "Burundi",
-            "fullname": "The Republic of Burundi",
             "code": "BI"
           }
         },
@@ -9675,7 +9455,6 @@
           "id": "854",
           "properties": {
             "name": "Burkina Faso",
-            "fullname": "Burkina Faso",
             "code": "BF"
           }
         },
@@ -9694,7 +9473,6 @@
           "id": "100",
           "properties": {
             "name": "Bulgaria",
-            "fullname": "The Republic of Bulgaria",
             "code": "BG"
           }
         },
@@ -9717,7 +9495,6 @@
           "id": "096",
           "properties": {
             "name": "Brunei",
-            "fullname": "The Nation of Brunei, the Abode of Peace",
             "code": "BN"
           }
         },
@@ -9823,7 +9600,6 @@
           "id": "076",
           "properties": {
             "name": "Brazil",
-            "fullname": "The Federative Republic of Brazil",
             "code": "BR"
           }
         },
@@ -9839,7 +9615,6 @@
           "id": "072",
           "properties": {
             "name": "Botswana",
-            "fullname": "The Republic of Botswana",
             "code": "BW"
           }
         },
@@ -9857,7 +9632,6 @@
           "id": "070",
           "properties": {
             "name": "Bosnia and Herzegovina",
-            "fullname": "Bosnia and Herzegovina",
             "code": "BA"
           }
         },
@@ -9875,7 +9649,6 @@
           "id": "068",
           "properties": {
             "name": "Bolivia",
-            "fullname": "The Plurinational State of Bolivia",
             "code": "BO"
           }
         },
@@ -9890,7 +9663,6 @@
           "id": "064",
           "properties": {
             "name": "Bhutan",
-            "fullname": "The Kingdom of Bhutan",
             "code": "BT"
           }
         },
@@ -9908,7 +9680,6 @@
           "id": "204",
           "properties": {
             "name": "Benin",
-            "fullname": "The Republic of Benin",
             "code": "BJ"
           }
         },
@@ -9936,7 +9707,6 @@
           "id": "084",
           "properties": {
             "name": "Belize",
-            "fullname": "Belize",
             "code": "BZ"
           }
         },
@@ -9955,7 +9725,6 @@
           "id": "056",
           "properties": {
             "name": "Belgium",
-            "fullname": "The Kingdom of Belgium",
             "code": "BE"
           }
         },
@@ -9973,7 +9742,6 @@
           "id": "112",
           "properties": {
             "name": "Belarus",
-            "fullname": "The Republic of Belarus",
             "code": "BY"
           }
         },
@@ -9987,7 +9755,6 @@
           "id": "052",
           "properties": {
             "name": "Barbados",
-            "fullname": "Barbados",
             "code": "BB"
           }
         },
@@ -10035,7 +9802,6 @@
           "id": "050",
           "properties": {
             "name": "Bangladesh",
-            "fullname": "The People's Republic of Bangladesh",
             "code": "BD"
           }
         },
@@ -10049,7 +9815,6 @@
           "id": "048",
           "properties": {
             "name": "Bahrain",
-            "fullname": "The Kingdom of Bahrain",
             "code": "BH"
           }
         },
@@ -10135,7 +9900,6 @@
           "id": "044",
           "properties": {
             "name": "Bahamas",
-            "fullname": "The Commonwealth of The Bahamas",
             "code": "BS"
           }
         },
@@ -10170,7 +9934,6 @@
           "id": "031",
           "properties": {
             "name": "Azerbaijan",
-            "fullname": "The Republic of Azerbaijan",
             "code": "AZ"
           }
         },
@@ -10192,7 +9955,6 @@
           "id": "040",
           "properties": {
             "name": "Austria",
-            "fullname": "The Republic of Austria",
             "code": "AT"
           }
         },
@@ -10413,7 +10175,6 @@
           "id": "036",
           "properties": {
             "name": "Australia",
-            "fullname": "The Commonwealth of Australia",
             "code": "AU"
           }
         },
@@ -10428,7 +10189,6 @@
           ],
           "properties": {
             "name": "Christmas Island",
-            "fullname": "The Territory of Christmas Island",
             "code": "CX"
 
           }
@@ -10449,7 +10209,6 @@
           ],
           "properties": {
             "name": "Cocos (Keeling) Islands",
-            "fullname": "The Territory of Cocos (Keeling) Islands",
             "code": "CC"
 
           }
@@ -10466,7 +10225,6 @@
           "id": "334",
           "properties": {
             "name": "Heard Island and McDonald Islands",
-            "fullname": "The Territory of Heard Island and McDonald Islands",
             "code": "HM"
           }
         },
@@ -10480,7 +10238,6 @@
           "id": "574",
           "properties": {
             "name": "Norfolk Island",
-            "fullname": "The Territory of Norfolk Island",
             "code": "NF"
           }
         },
@@ -10494,7 +10251,6 @@
           "id": "036",
           "properties": {
             "name": "Ashmore and Cartier Islands",
-            "fullname": "Ashmore and Cartier Islands",
             "code": "AU"
 
           }
@@ -10523,7 +10279,6 @@
           "id": "051",
           "properties": {
             "name": "Armenia",
-            "fullname": "The Republic of Armenia",
             "code": "AM"
           }
         },
@@ -10560,7 +10315,6 @@
           "id": "032",
           "properties": {
             "name": "Argentina",
-            "fullname": "The Argentine Republic",
             "code": "AR"
           }
         },
@@ -10581,7 +10335,6 @@
           "id": "028",
           "properties": {
             "name": "Antigua and Barbuda",
-           "fullname": "Antigua and Barbuda",
             "code": "AG"
           }
         },
@@ -10607,7 +10360,6 @@
           "id": "024",
           "properties": {
             "name": "Angola",
-           "fullname": "The Republic of Angola",
             "code": "AO"
 
           }
@@ -10623,7 +10375,6 @@
           "id": "020",
           "properties": {
             "name": "Andorra",
-           "fullname": "The Principality of Andorra",
             "code": "AD"
           }
         },
@@ -10644,7 +10395,6 @@
           "id": "012",
           "properties": {
             "name": "Algeria",
-            "fullname": "The People's Democratic Republic of Algeria",
             "code": "DZ"
           }
         },
@@ -10662,7 +10412,6 @@
           "id": "008",
           "properties": {
             "name": "Albania",
-            "fullname": "The Republic of Albania",
             "code": "AL"
           }
         },
@@ -10681,7 +10430,6 @@
           "id": "004",
           "properties": {
             "name": "Afghanistan",
-            "fullname": "Islamic Emirate of Afghanistan",
             "code": "AF"
           }
         },
@@ -11235,7 +10983,6 @@
           "id": "010",
           "properties": {
             "name": "Antarctica",
-            "fullname": "Antarctica",
             "code": "AQ"
 
           }
@@ -11251,7 +10998,6 @@
           "id": "534",
           "properties": {
             "name": "Sint Maarten",
-            "fullname": "Sint Maarten",
             "code": "SX"
           }
         }

@@ -1,4 +1,3 @@
-import {CircularProgress} from "@mui/material";
 import React from "react";
 import {ComposableMap, Geographies, Geography, ZoomableGroup} from "react-simple-maps";
 import styles from "../styles/Home.module.css";
@@ -7,8 +6,8 @@ export function WorldMap(props: { position: any, handleMoveEnd: any, colorScale:
     let {position, handleMoveEnd, colorScale, content, cMap, setContent, setCountry, getData} = props;
     return (
         <div className={styles.paperboxesInner}>
-            {cMap.size > 0 ? <ComposableMap projectionConfig={{rotate: [-10, 0, 0], scale: 60}} width={400}
-                                            height={200}>
+            <ComposableMap projectionConfig={{rotate: [-10, 0, 0], scale: 60}} width={350}
+                                            height={175}>
                 <ZoomableGroup zoom={position.zoom}
                                center={[position.coordinates[0], position.coordinates[1]]}
                                onMoveEnd={handleMoveEnd}>
@@ -108,12 +107,7 @@ export function WorldMap(props: { position: any, handleMoveEnd: any, colorScale:
                         }
                     </Geographies>
                 </ZoomableGroup>
-            </ComposableMap> : <div className={styles.infoCard}>
-                <CircularProgress className={styles.circularProgress}/>
-                <h3>Loading Historical Data</h3>
-                <h4>This may take a few seconds</h4>
-
-            </div>}
+            </ComposableMap>
         </div>
     );
 }
